@@ -1,0 +1,115 @@
+/*
+Theme Name: Beaver Builder Child Theme
+Theme URI: http://www.wpbeaverbuilder.com
+Version: 1.0
+Description: An example child theme that can be used as a starting point for custom development.
+Author: The Beaver Builder Team
+Author URI: http://www.fastlinemedia.com
+template: bb-theme
+*/
+
+/* Add your custom styles here... */ 
+
+
+/* Body Overflow
+**********************************/
+body {
+	overflow-x: hidden;
+}
+
+/* Contact Button Top Right
+**********************************/
+div#contact a.fl-button:hover {
+    background-color: #ffd953 !important;
+}
+div#contact a.fl-button {
+    background-color: #fab94d !important;
+    border-style: none !important;
+    border-radius: 0px !important;
+}
+
+/* Remove Underline From Links
+**********************************/
+a {
+    text-decoration: none !important;
+}
+
+/* Logo Top Left To Have Fixed Width
+**********************************/
+.logo img {
+    max-width: 300px !important;
+}
+
+/* Top Menu/Submenu Align Left, Hover Colors, Backgrounds
+**********************************/
+.top-menu ul ul {
+	text-align: left !important;
+	margin-left: -1px;
+}
+.top-menu ul li:hover {
+	background-color: #fab94d;
+}
+.top-menu a:hover {
+    color: black !important;
+}
+
+/* Footer Hover Link Color 
+**********************************/
+.footer a:hover {
+	color: grey;
+}
+
+/* Body Text Modifications
+**********************************/
+.body-text {
+	text-align: center;
+	font-size: 18px;
+	margin-left: 6%;
+	margin-right: 6%;
+	color: 656565;
+}
+.body-text-left {
+	text-align: left;
+	font-size: 18px;
+	margin-left: 6%;
+	margin-right: 6%;
+	color: 656565;
+}
+.narrow-block {
+	line-height: 2em;
+	margin-left: 12%;
+	margin-right: 12%;
+}
+.contact-text {
+	font-size: 18px;
+}
+
+/* Contact Form Send Button
+**********************************/
+input.fl-contact-form-submit {
+	background-color: #fab94d !important;
+    border-style: none !important;
+    border-radius: 0px !important;
+}
+input.fl-contact-form-submit:hover {
+	background-color: #ffd953 !important;
+}
+
+/* Accordion on Planning Page
+**********************************/
+span.fl-accordion-button-label {
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+.fl-accordion-content.fl-clearfix {
+	color: white;
+}
+i.fl-accordion-button-icon.fa.fa-plus {
+	color: white;
+}
+.fl-accordion-item {
+	background-color: #16426d;
+	margin-left: 20%;
+	margin-right: 20%
+}
